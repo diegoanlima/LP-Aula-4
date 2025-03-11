@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    float imc;
+
+    
+    printf("Digite o valor do IMC: ");
+    scanf("%f", &imc);
+
+   
+    if (imc >= 18.5 && imc <= 24.9) {
+        printf("Intervalo normal\n");
+    } else {
+        printf("Fora do intervalo normal\n");
+    }
+
+    return 0;
+}
